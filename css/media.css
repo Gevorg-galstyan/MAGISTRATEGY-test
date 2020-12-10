@@ -1,0 +1,36 @@
+@media all and (min-width: 1024px) {
+    .consulting__button {
+        max-width: 535px;
+        margin-left: auto;
+    }
+}
+
+@media all and (min-width: 996px) {
+    .col-lg-own-5 {
+        width: 43%;
+    }
+
+    .col-lg-own-7 {
+        width: 57%;
+    }
+
+    form .form-control {
+        max-width: 150px;
+    }
+}
+
+@media all and (max-width: 996px) {
+    .bg__emigrate_uk {
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center 15%;
+    }
+
+    .target__sqr {
+        height: 197px;
+    }
+
+    .big__target {
+        height: 178px;
+    }
+}
