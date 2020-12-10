@@ -20,20 +20,30 @@
 <body>
 <!--HEADER NAVBAR-->
 <header class="standard-padding header">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-xl navbar-light">
         <div class="container-fluid p-0">
             <a class="navbar-brand" href="#">
                 <img src="img/logo-header.png" alt="logo">
             </a>
+            <div class="d-flex col align-items-center align-self-end">
+                <div class="experience">
+                    <span class="laurel">23</span>
+                    <span class="laurel__text">ГОДА НА РЫНКЕ</span>
+                </div>
 
-            <div class="experience">
-                <span class="laurel">23</span>
-                <span class="laurel__text">ГОДА НА РЫНКЕ</span>
+                <div class="mobile__phone d-block d-xl-none">
+                    <a href="tel:+74995530399" class="call__to-us"><img src="img/header/phone.png" class="img-fluid"
+                                                                        alt=""></a>
+
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#magiheader"
+                        aria-controls="magiheader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon "></span>
+                    <span class="toggler-icon my-2"></span>
+                    <span class="toggler-icon"></span>
+                </button>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#magiheader"
-                    aria-controls="magiheader" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+
             <div class="collapse navbar-collapse align-self-end" id="magiheader">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -89,8 +99,8 @@
                             <h5 class="info__name">Дарья Сысоева -</h5>
                             <p class="info__description">руководитель отдела по работе с клиентами</p>
                         </div>
-                        <h3 class="slider__left_header">MAGIST TEGY</h3>
-                        <h3 class="slider__left_header-2">MAGIS</h3>
+                        <h3 class="slider__left_header d-none d-lg-block ">MAGIST TEGY</h3>
+                        <h3 class="slider__left_header-2 d-none d-lg-block ">MAGIS</h3>
                     </div>
                 </div>
                 <div class="col-6 p-0 position-relative">
@@ -112,7 +122,7 @@
     <section class="numbering">
         <div class="container-fluid">
             <div class="row bg-container">
-                <div class="col-lg col-4 cols d-flex align-items-center py-3 p-0">
+                <div class="col-xl col-4 cols d-flex align-items-center py-3 p-0">
                     <div class="number__block text-center px-3">
                         <span class="number">23</span>
                         <p class="number__description m-0 mt-3">
@@ -120,7 +130,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg col-4 cols d-flex align-items-center py-3 p-0">
+                <div class="col-xl col-4 cols d-flex align-items-center py-3 p-0">
                     <div class="number__block text-center px-3">
                         <span class="number">75</span>
                         <p class="number__description m-0 mt-3">
@@ -128,7 +138,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg col-4 cols d-flex align-items-center py-3 p-0">
+                <div class="col-xl col-4 cols d-flex align-items-center py-3 p-0">
                     <div class="number__block text-center px-3">
                         <span class="number">7</span>
                         <p class="number__description m-0 mt-3">
@@ -136,7 +146,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg col-4 cols d-flex align-items-center py-3 p-0">
+                <div class="mobile-divider"></div>
+                <div class="col-xl col-4 cols d-flex align-items-center py-3 p-0">
                     <div class="number__block text-center px-3">
                         <span class="number">25</span>
                         <p class="number__description m-0 mt-3">
@@ -145,7 +156,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg col-4 cols d-flex align-items-center py-3 p-0">
+                <div class="col-xl col-4 cols d-flex align-items-center py-3 p-0">
                     <div class="number__block text-center px-3">
                         <span class="number">15</span>
                         <p class="number__description m-0 mt-3">
@@ -153,7 +164,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg col-4 cols d-flex align-items-center py-3 p-0">
+                <div class="col-xl col-4 cols d-flex align-items-center py-3 p-0">
                     <div class="number__block text-center px-3">
                         <span class="number">98%</span>
                         <p class="number__description m-0 mt-3">
@@ -386,8 +397,9 @@
                 <div class="col-lg-3 p-0">
                     <div class="d-flex justify-content-end contact__img position-relative h-100">
                         <img src="img/contacts/owner.png" class="align-self-end" alt="">
-                        <div class="after parallax__move" id="parallax__move_one"><img
-                                src="img/contacts/parallax/line.png" alt=""></div>
+                        <div class="after parallax__move d-none d-lg-block" id="parallax__move_one">
+                            <img src="img/contacts/parallax/line.png" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-9 p-0">
@@ -396,19 +408,19 @@
                         <p>Оставьте заявку, чтобы посмотреть одно занятие курса <b>БЕСПЛАТНО</b>. Запись будет доступна
                             в течение 3 дней. Ссылка на просмотр придет Вам на почту</p>
                         <form action="" class="row">
-                            <div class="col-auto m-0 pl-0 pr-3 ">
+                            <div class="col-lg-auto m-0 pl-0 pr-lg-3 px-lg-0 px-3 ">
                                 <input type="text" class="form-control" id="name" name="name" placeholder="имя"
                                        required/>
                             </div>
-                            <div class="col-auto m-0 px-3">
+                            <div class="col-lg-auto m-0 px-3">
                                 <input type="email" class="form-control" id="email" name="email" placeholder="E-mail"
                                        required/>
                             </div>
-                            <div class="col-auto m-0 px-3">
+                            <div class="col-lg-auto m-0 px-3">
                                 <input type="tel" class="form-control" id="tel" name="tel" placeholder="телефон"
                                        required/>
                             </div>
-                            <div class="col-auto m-0 pl-3 pr-0">
+                            <div class="col-lg-auto m-0 pl-3 pr-0">
                                 <button type="submit" class="btn btn-primary d-block">Заказать просмотр</button>
                             </div>
                         </form>
@@ -435,12 +447,12 @@
                     </div>
                 </div>
                 <div class="col-lg-9 p-0">
-                    <div class="slick-slider">
+                    <div class="slick__slider">
                         <div class="slide position-relative">
                             <div class="slide-content">
                                 <h2 class="slide__title m-0">Что мы умеем:</h2>
                                 <div class="dividers">
-                                    <hr class="top"/>
+                                    <hr class="top d-none d-lg-block"/>
                                     <hr class="bottom"/>
                                 </div>
                                 <div class="row m-0 slider__text justify-content-between">
@@ -451,14 +463,14 @@
                                                 четверки.</p>
                                         </div>
                                         <div class="text__content">
-                                            <p><b>Сопровождать: </b> мы напомним о графике, по вашей просьбе отменим /
+                                            <p class="mb-5 mb-lg-0"><b>Сопровождать: </b> мы напомним о графике, по вашей просьбе отменим /
                                                 перенесем занятия в случае необходимости. )</p>
                                         </div>
 
                                     </div>
                                     <div class="col-lg-5 p-0">
                                         <div class="text__content">
-                                            <p><b>Учитывать ваши потребности:</b> Вам предстоит сдача теста через год?
+                                            <p ><b>Учитывать ваши потребности:</b> Вам предстоит сдача теста через год?
                                                 Удобно заниматься ранним утром? Нужен гибкий график занятий или
                                                 наоборот? Вы живете в другом часовом поясе? Мы подберем наиболее
                                                 подходящий для вас вариант подготовки.
@@ -469,7 +481,7 @@
 
 
                                 <div class="slider__bottom d-flex align-items-center justify-content-between">
-                                    <div class="slider__bottom_first"><img src="img/about/gre.png" alt=""></div>
+                                    <div class="slider__bottom_first d-lg-block d-none"><img src="img/about/gre.png" alt=""></div>
                                     <div class="slider__bottom_second"><img src="img/about/a.png" alt=""></div>
                                 </div>
                                 <div class="slider__dis"><img src="img/about/tofel.png" alt=""></div>
@@ -479,7 +491,7 @@
                             <div class="slide-content">
                                 <h2 class="slide__title m-0">Что мы умеем:</h2>
                                 <div class="dividers">
-                                    <hr class="top"/>
+                                    <hr class="top d-none d-lg-block"/>
                                     <hr class="bottom"/>
                                 </div>
                                 <div class="row m-0 slider__text justify-content-between">
@@ -490,14 +502,14 @@
                                                 четверки.</p>
                                         </div>
                                         <div class="text__content">
-                                            <p><b>Сопровождать: </b> мы напомним о графике, по вашей просьбе отменим /
+                                            <p class="mb-5 mb-lg-0"><b>Сопровождать: </b> мы напомним о графике, по вашей просьбе отменим /
                                                 перенесем занятия в случае необходимости. )</p>
                                         </div>
 
                                     </div>
                                     <div class="col-lg-5 p-0">
                                         <div class="text__content">
-                                            <p><b>Учитывать ваши потребности:</b> Вам предстоит сдача теста через год?
+                                            <p ><b>Учитывать ваши потребности:</b> Вам предстоит сдача теста через год?
                                                 Удобно заниматься ранним утром? Нужен гибкий график занятий или
                                                 наоборот? Вы живете в другом часовом поясе? Мы подберем наиболее
                                                 подходящий для вас вариант подготовки.
@@ -508,7 +520,7 @@
 
 
                                 <div class="slider__bottom d-flex align-items-center justify-content-between">
-                                    <div class="slider__bottom_first"><img src="img/about/gre.png" alt=""></div>
+                                    <div class="slider__bottom_first d-lg-block d-none"><img src="img/about/gre.png" alt=""></div>
                                     <div class="slider__bottom_second"><img src="img/about/a.png" alt=""></div>
                                 </div>
                                 <div class="slider__dis"><img src="img/about/tofel.png" alt=""></div>
@@ -518,7 +530,7 @@
                             <div class="slide-content">
                                 <h2 class="slide__title m-0">Что мы умеем:</h2>
                                 <div class="dividers">
-                                    <hr class="top"/>
+                                    <hr class="top d-none d-lg-block"/>
                                     <hr class="bottom"/>
                                 </div>
                                 <div class="row m-0 slider__text justify-content-between">
@@ -529,14 +541,14 @@
                                                 четверки.</p>
                                         </div>
                                         <div class="text__content">
-                                            <p><b>Сопровождать: </b> мы напомним о графике, по вашей просьбе отменим /
+                                            <p class="mb-5 mb-lg-0"><b>Сопровождать: </b> мы напомним о графике, по вашей просьбе отменим /
                                                 перенесем занятия в случае необходимости. )</p>
                                         </div>
 
                                     </div>
                                     <div class="col-lg-5 p-0">
                                         <div class="text__content">
-                                            <p><b>Учитывать ваши потребности:</b> Вам предстоит сдача теста через год?
+                                            <p ><b>Учитывать ваши потребности:</b> Вам предстоит сдача теста через год?
                                                 Удобно заниматься ранним утром? Нужен гибкий график занятий или
                                                 наоборот? Вы живете в другом часовом поясе? Мы подберем наиболее
                                                 подходящий для вас вариант подготовки.
@@ -547,7 +559,7 @@
 
 
                                 <div class="slider__bottom d-flex align-items-center justify-content-between">
-                                    <div class="slider__bottom_first"><img src="img/about/gre.png" alt=""></div>
+                                    <div class="slider__bottom_first d-lg-block d-none"><img src="img/about/gre.png" alt=""></div>
                                     <div class="slider__bottom_second"><img src="img/about/a.png" alt=""></div>
                                 </div>
                                 <div class="slider__dis"><img src="img/about/tofel.png" alt=""></div>
@@ -557,7 +569,7 @@
                             <div class="slide-content">
                                 <h2 class="slide__title m-0">Что мы умеем:</h2>
                                 <div class="dividers">
-                                    <hr class="top"/>
+                                    <hr class="top d-none d-lg-block"/>
                                     <hr class="bottom"/>
                                 </div>
                                 <div class="row m-0 slider__text justify-content-between">
@@ -568,14 +580,14 @@
                                                 четверки.</p>
                                         </div>
                                         <div class="text__content">
-                                            <p><b>Сопровождать: </b> мы напомним о графике, по вашей просьбе отменим /
+                                            <p class="mb-5 mb-lg-0"><b>Сопровождать: </b> мы напомним о графике, по вашей просьбе отменим /
                                                 перенесем занятия в случае необходимости. )</p>
                                         </div>
 
                                     </div>
                                     <div class="col-lg-5 p-0">
                                         <div class="text__content">
-                                            <p><b>Учитывать ваши потребности:</b> Вам предстоит сдача теста через год?
+                                            <p ><b>Учитывать ваши потребности:</b> Вам предстоит сдача теста через год?
                                                 Удобно заниматься ранним утром? Нужен гибкий график занятий или
                                                 наоборот? Вы живете в другом часовом поясе? Мы подберем наиболее
                                                 подходящий для вас вариант подготовки.
@@ -586,7 +598,7 @@
 
 
                                 <div class="slider__bottom d-flex align-items-center justify-content-between">
-                                    <div class="slider__bottom_first"><img src="img/about/gre.png" alt=""></div>
+                                    <div class="slider__bottom_first d-lg-block d-none"><img src="img/about/gre.png" alt=""></div>
                                     <div class="slider__bottom_second"><img src="img/about/a.png" alt=""></div>
                                 </div>
                                 <div class="slider__dis"><img src="img/about/tofel.png" alt=""></div>

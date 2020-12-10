@@ -446,6 +446,8 @@ body {
 .bg__emigrate_uk {
     background: linear-gradient(-90deg, rgba(0, 0, 0, 0.483) 4.31%, rgba(0, 0, 0, 0) 93.82%), url("../img/target/emigrate-uk.jpg");
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 /*CONTACT BLOCK*/
@@ -513,6 +515,9 @@ form .form-control {
     font-size: 14px;
     line-height: 151.8%;
     color: rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none    ;
+    box-shadow: none    ;
 }
 
 form .form-control:focus {
@@ -525,7 +530,7 @@ form .form-control:focus {
 form .btn {
     width: 230px;
     height: 57px;
-    background: linear-gradient(-90deg, #D34141 0%, #8E1717 100%);
+    background: linear-gradient(-180deg, #D34141 0%, #8E1717 100%);
     box-shadow: 0 30px 55px -15px rgba(173, 34, 28, 0.5);
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -675,7 +680,7 @@ hr.bottom {
     line-height: 130%;
     letter-spacing: 0.075em;
     color: rgba(255, 255, 255, 0.56);
-
+    background: #D34141;
 }
 
 .slick-dots li button span {
@@ -820,11 +825,12 @@ hr.bottom {
     opacity: 0;
     visibility: hidden;
     -webkit-transition: all .15s ease;
-    -moz-transition: all .15s ease ;
-    -ms-transition: all .15s ease ;
-    -o-transition: all .15s ease ;
-    transition: all .15s ease ;
+    -moz-transition: all .15s ease;
+    -ms-transition: all .15s ease;
+    -o-transition: all .15s ease;
+    transition: all .15s ease;
 }
+
 .slide__single:hover span {
     opacity: 1;
     visibility: visible;
